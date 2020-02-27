@@ -8,6 +8,10 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 import VueRouter from 'vue-router';
+import VueMaterial from 'vue-material';
+import 'vue-material/dist/vue-material.min.css';
+import 'vue-material/dist/theme/default.css';
+
 import Home from './pages/Home.vue';
 import About from './pages/About.vue';
 import NotFound from './pages/404.vue';
@@ -15,6 +19,7 @@ import NotFound from './pages/404.vue';
 // This installs <router-view> and <router-link>,
 // and injects $router and $route to all router-enabled child components
 Vue.use(VueRouter);
+Vue.use(VueMaterial);
 
 /**
  * The following block of code may be used to automatically register your
