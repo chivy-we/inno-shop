@@ -13,7 +13,10 @@ import 'vue-material/dist/vue-material.min.css';
 import 'vue-material/dist/theme/default.css';
 
 import Home from './pages/Home.vue';
-import About from './pages/About.vue';
+import Feed from './pages/Feed.vue';
+import SMS from './pages/SMS.vue';
+import Cart from './pages/Cart.vue';
+import Profile from './pages/Profile.vue';
 import NotFound from './pages/404.vue';
 
 // This installs <router-view> and <router-link>,
@@ -46,7 +49,10 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     { path: '/', component: Home },
-    { path: '/about', component: About },
+    { path: '/feed', component: Feed },
+    { path: '/sms', component: SMS },
+    { path: '/cart', component: Cart },
+    { path: '/profile', component: Profile },
     { path: "*", component: NotFound },
   ]
 });

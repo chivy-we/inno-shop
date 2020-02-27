@@ -1,6 +1,6 @@
 <template>
     <main-layout>
-        <p>Welcome home</p>
+        <p>About page</p>
     </main-layout>
 </template>
 

@@ -1,21 +1,23 @@
 <template>
-    <div class="container">
-        <ul>
-            <li>
-                <router-link to="/">Home</router-link>
-                <router-link to="/about">About</router-link>
-            </li>
-        </ul>
+    <div class="page-container">
+        <md-app>
+            <md-app-content>
+                <slot></slot>
+            </md-app-content>
+        </md-app>
 
-        <slot></slot>
+        <md-bottom-bar md-sync-route class="bottom-bar">
+            <md-bottom-bar-item to="/" exact md-label="Home" md-icon="home"></md-bottom-bar-item>
+            <md-bottom-bar-item to="/feed" md-label="Feed" md-icon="favorite"></md-bottom-bar-item>
+            <md-bottom-bar-item to="/sms" md-label="SMS" md-icon="textsms"></md-bottom-bar-item>
+            <md-bottom-bar-item to="/cart" md-label="Cart" md-icon="shopping_cart"></md-bottom-bar-item>
+        </md-bottom-bar>
     </div>
 </template>
 
 <style scoped>
-    .container {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 15px 30px;
-        background: #f9f7f5;
+    .bottom-bar {
+        position: absolute;
+        bottom: 0;
     }
 </style>
