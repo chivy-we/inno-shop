@@ -1,6 +1,6 @@
 <template>
     <main-layout>
-        <p>About page</p>
+        <p>Cart page</p>
     </main-layout>
 </template>
 
