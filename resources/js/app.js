@@ -61,3 +61,26 @@ const app = new Vue({
   router: router,
   el: '#app',
 });
+
+export default {
+    name: 'AutocompleteBox',
+    data: () => ({
+      selectedEmployee: null,
+      employees: [
+        'Jim Halpert',
+        'Dwight Schrute',
+        'Michael Scott',
+        'Pam Beesly',
+        'Angela Martin',
+        'Kelly Kapoor',
+        'Ryan Howard',
+        'Kevin Malone',
+        'Creed Bratton',
+        'Oscar Nunez',
+        'Toby Flenderson',
+        'Stanley Hudson',
+        'Meredith Palmer',
+        'Phyllis Lapin-Vance'
+      ]
+    })
+};

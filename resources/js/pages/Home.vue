@@ -1,7 +1,6 @@
 <template>
     <main-layout>
-        <p>Welcome home</p>
-
+        <img class="slideShow" src="/images/food-slideshow.jpg" />
         <div>
             <md-button class="md-raised md-primary">Drink</md-button>
             <md-button class="md-raised md-primary">Snack</md-button>
