@@ -38,6 +38,7 @@ Vue.use(VueMaterial);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
  Vue.component('top-sell', require('./components/TopSell.vue').default);
+ Vue.component('search-box', require('./components/SearchBox.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

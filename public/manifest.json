@@ -3,14 +3,44 @@
   "name": "Inno Shop",
   "icons": [
     {
+      "src": "/images/touch-icon-57x57.png",
+      "type": "image/png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "/images/touch-icon-60x60.png",
+      "type": "image/png",
+      "sizes": "60x60"
+    },
+    {
       "src": "/images/touch-icon-72x72.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
+      "src": "/images/touch-icon-76x76.png",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "/images/touch-icon-114x114.png",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "/images/touch-icon-120x120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
       "src": "/images/touch-icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "/images/touch-icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": "/",
