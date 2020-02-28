@@ -5,7 +5,7 @@
             <div class="item-detail-card">
                 <md-card md-small-size="100" md-medium-size="50">
                   <md-card-media>
-                    <img src="/images/food-slideshow.png" alt="People">
+                    <img src="/assets/img5.png">
                   </md-card-media>
                 <div>
                   <div class="left-title">

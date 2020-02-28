@@ -3,7 +3,7 @@
         <h1>Top Sell</h1>
         <md-card>
             <md-card-media>
-                <img src="/assets/card-image.jpg" alt="People">
+                <img src="/assets/img5.png" alt="People">
             </md-card-media>
 
             <md-card-header>
@@ -18,7 +18,7 @@
         </md-card>
         <md-card>
             <md-card-media>
-                <img src="/assets/card-image.jpg" alt="People">
+                <img src="/assets/img1.png" alt="People">
             </md-card-media>
 
             <md-card-header>
@@ -33,7 +33,7 @@
         </md-card>
         <md-card>
             <md-card-media>
-                <img src="/assets/card-image.jpg" alt="People">
+                <img src="/assets/img4.png" alt="People">
             </md-card-media>
 
             <md-card-header>
@@ -48,7 +48,7 @@
         </md-card>
         <md-card>
             <md-card-media>
-                <img src="/assets/card-image.jpg" alt="People">
+                <img src="/assets/img2.png" alt="People">
             </md-card-media>
 
             <md-card-header>
@@ -63,7 +63,7 @@
         </md-card>
         <md-card>
             <md-card-media>
-                <img src="/assets/card-image.jpg" alt="People">
+                <img src="/assets/img3.png" alt="People">
             </md-card-media>
 
             <md-card-header>
@@ -90,5 +90,9 @@
         }
         display: inline-block;
         vertical-align: top;
+        img {
+            object-fit: contain;
+            max-height: 147px;
+        }
     }
 </style>
