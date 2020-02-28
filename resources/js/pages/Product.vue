@@ -34,7 +34,10 @@
                 </md-card>
             </div>
         </div>
-        <top-sell></top-sell>
+
+        <div class="content-container">
+            <top-sell></top-sell>
+        </div>
     </main-layout>
 </template>
 
@@ -48,6 +51,9 @@
   };
 </script>
 <style lang="scss" scoped>
+    h1 {
+        text-align: center;
+    }
     #container {
        .md-layout {
           background-color: white;
@@ -59,8 +65,8 @@
           padding: 8px;
        }
     }
-    h1 {
-        text-align: center;
+    .content-container {
+        padding: 10px;
     }
     .item-detail-card {
         width: 100%;

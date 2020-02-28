@@ -1,6 +1,7 @@
 <template>
     <main-layout>
         <div>
+            <img class="slide-show" src="/images/food-slideshow.png" />
             <md-table v-model="people" md-card @md-selected="onSelect">
                 <md-table-toolbar>
                     <h1 class="md-title">You have ordered</h1>
@@ -85,6 +86,11 @@
 </script>
 
 <style lang="scss" scoped>
+    .slide-show {
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
+    }
     .md-table + .md-table {
         margin-top: 16px
     }

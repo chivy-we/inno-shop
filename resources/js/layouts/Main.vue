@@ -31,4 +31,7 @@
         right: 0;
         z-index: 9999;
     }
+    .md-ripple {
+        justify-content: space-between;
+    }
 </style>

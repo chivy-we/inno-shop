@@ -1,14 +1,12 @@
 <template>
     <main-layout>
         <search-box></search-box>
-
         <img class="slide-show" src="/images/food-slideshow.png" />
-
         <div class="content-container">
-            <div>
+            <div class="category">
                 <md-button class="md-raised md-primary">Drink</md-button>
-                <md-button class="md-raised md-primary">Snack</md-button>
-                <md-button class="md-raised md-primary">Shop</md-button>
+                <md-button class="md-raised">Snack</md-button>
+                <md-button class="md-raised">Shop</md-button>
             </div>
             <top-sell></top-sell>
         </div>
@@ -24,7 +22,6 @@
     },
   };
 </script>
-
 <style lang="scss" scoped>
     .slide-show {
         object-fit: cover;
@@ -32,5 +29,10 @@
     }
     .content-container {
         padding: 10px;
+    }
+    .category {
+        .md-button {
+            border-radius: 20px;
+        }
     }
 </style>
