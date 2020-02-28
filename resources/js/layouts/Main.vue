@@ -23,7 +23,6 @@
                     <md-bottom-bar-item to="/cart" md-label="Cart" md-icon="shopping_cart"></md-bottom-bar-item>
                 </md-bottom-bar>
             </div>
-
         </div>
     </div>
 </template>
