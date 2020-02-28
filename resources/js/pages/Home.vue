@@ -19,6 +19,7 @@
                 </md-card-header>
 
                 <md-card-actions>
+                    <md-button to="/product">View</md-button>
                     <md-button class="md-primary">Buy</md-button>
                 </md-card-actions>
             </md-card>
@@ -34,6 +35,7 @@
                 </md-card-header>
 
                 <md-card-actions>
+                    <md-button to="/product">View</md-button>
                     <md-button class="md-primary">Buy</md-button>
                 </md-card-actions>
             </md-card>

@@ -17,6 +17,8 @@ import Feed from './pages/Feed.vue';
 import SMS from './pages/SMS.vue';
 import Cart from './pages/Cart.vue';
 import Profile from './pages/Profile.vue';
+import Product from './pages/Product.vue';
+
 import NotFound from './pages/404.vue';
 
 // This installs <router-view> and <router-link>,
@@ -53,6 +55,8 @@ const router = new VueRouter({
     { path: '/sms', component: SMS },
     { path: '/cart', component: Cart },
     { path: '/profile', component: Profile },
+    { path: '/product', component: Product },
+
     { path: "*", component: NotFound },
   ]
 });
