@@ -1,0 +1,21 @@
+{
+  "short_name": "InnoShop",
+  "name": "Inno Shop",
+  "icons": [
+    {
+      "src": "/images/touch-icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/images/touch-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#000000"
+}
+

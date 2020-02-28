@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="{{ asset('manifest.json') }}">
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
         <title>Inno Store</title>
     </head>
